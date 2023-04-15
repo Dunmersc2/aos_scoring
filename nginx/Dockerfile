@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL MAINTAINER="Shane Forde shaneforde02@googlemail.com"
+LABEL MAINTAINER="Forename Surname emailaddress@email.com"
 
 RUN apk --update add nginx && \
     ln -sf /dev/stdout /var/log/nginx/access.log && \
